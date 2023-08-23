@@ -1,0 +1,8 @@
+"custom/mpwidget": {
+    "exec": "/usr/bin/python3 ~/script/path/here/mediaplayerwidget.py",
+    "format": "♫  {}",
+    "return-type": "json",
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
+}, 
